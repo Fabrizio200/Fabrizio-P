@@ -1,0 +1,134 @@
+footer {
+    background-color: #336650;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    color: white;
+    gap: 5%;
+    padding: 60px;
+}
+
+footer div {
+    width: auto;
+}
+
+header {
+    background-color: #336650;
+    padding: 13px;
+}
+
+.fabritec {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.fabritec a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s, underline 0.3s;
+    gap: 20px;
+    margin-left: 16px;
+
+}
+
+.fabritec a:hover {
+    text-decoration: underline;
+    color: #FF8800;
+}
+
+.copy {
+    background-color: #336650;
+    color: white;
+}
+
+.hola {
+    background-color: #CF6E02;
+    padding: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.mb-3 button {
+    font-size: 30px;
+}
+
+.seguir p {
+    cursor: pointer;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.seguir p:hover {
+    color: #FF8800;
+    text-decoration: underline;
+}
+
+.ayuda p {
+    cursor: pointer;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.ayuda p:hover {
+    color: #FF8800;
+    text-decoration: underline;
+}
+
+.infor p {
+    cursor: pointer;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.infor p:hover {
+    color: #FF8800;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 15px;
+    }
+
+    .fabritec img {
+        width: 120px;
+    }
+
+    .hola {
+        padding: 20px 10px;
+    }
+
+    .container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .container h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .form-control,
+    .form-select {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    footer {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 30px;
+        padding: 40px 25px;
+    }
+
+    footer div {
+        width: 100%;
+    }
+
+    .copy {
+        text-align: center;
+    }
+}
